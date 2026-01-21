@@ -1,0 +1,9 @@
+{
+	"name": "VisionBoard-ADF",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3c93f8e8-e95e-4141-9516-b366a413c341",
+		"tenantId": "14619fee-3565-4929-a12f-77cff3133dd6"
+	}
+}

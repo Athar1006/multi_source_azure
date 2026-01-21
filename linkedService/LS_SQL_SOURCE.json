@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_SOURCE",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-55HOHG4M\\SQLEXPRESS",
+			"database": "VBADEPROJECT",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhOWI1MWRmZS1lYjgxLTQzODUtOTU2ZC04YTcyYWI3ZjFkMjIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedsqlserver",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
